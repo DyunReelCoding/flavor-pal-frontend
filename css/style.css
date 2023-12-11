@@ -1,7 +1,11 @@
 body {
     margin: 0;
-    background-color: black; /* Set the background color to black */
-    overflow: hidden; /* Prevent scroll bars from appearing */
+    background-image: url(/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    overflow: auto; /* Prevent scroll bars from appearing */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .background-container {
@@ -23,4 +27,21 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.btn-register{
+    background-color: #fff;
+}
+
+.btn-register:hover{
+    background-color: rgb(172, 0, 0);
+}
+
+.btn-login{
+    background-color: #000;
+    color: white;
+}
+
+.btn-login:hover{
+    background-color: rgb(172, 0, 0);
 }
